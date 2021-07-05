@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: url(./img/header_bg.jpg);
+   
+   
+}
+header h1{
+    display: block;
+    color: #70869d;
+    font-style: 70px;
+    font-weight: 400;
+    padding: 293px 832px 275px 405px;
+    width: 687px;
+}
+header h1 span{
+    font-style: 70px;
+    font-weight: 900;
+    color: #404040;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+     width: 1111px;
+     margin: auto;
+}
+main .tepa .info{
+    display: flex;
+    width: 538px;
+    margin-top: 102px;
+}
+main .tepa .info h2{
+    color: #1f3750;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 22px 0 0px 30px;
+}
+main .tepa .info p{
+    color: #70869d;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 8px;
+    
+}
+
+
+
+main button{
+    background: #f2f2f2;
+    width: 160px;
+    height: 40px;
+    color: #70869d;
+    font-size: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+main button:hover{
+    background: #0092b6;
+    color: #fff;
+}
+main .k{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pas1 {
+    width: 1111px;
+    margin: 100px auto;
+    background: #f3f9ff;
+    height: 555px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.pas1 .pas{
+    
+    padding: 50px 27px;
+}
+.pas1 .pas h2{
+    color: #1f3750;
+    font-style: 16px;
+    font-weight:700;
+    margin-bottom: 30px;
+line-height: 27px;
+
+}
+.pas1 .pas p{
+    color: #70869d;
+    font-style: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    
+}
+.pas1 .pas a{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.link{
+    width: 1111px;
+    margin: auto;
+
+}
+.link .vil{
+    display: flex;
+    width: 1030px;
+    justify-content: space-between;
+}
+.link .tosh{
+    
+    display: flex;
+    flex-direction: column;
+}
+.link .tosh a{
+   font-size: 20px;
+   font-weight: 400;
+   color: #70869d;
+   text-decoration: none;
+}
+
+.link h2{
+    color: #1f3750;
+    font-style: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer{
+  margin-top: 50px;
+    background: #f3f9ff;
+    height: 100px;
+}
+footer .l{
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+footer .l a{
+    color: #444444;
+    font-weight: 700;
+    font-style: 20px;
+    margin-top: 42px;
+    text-decoration: none;
+}
+
+
+footer .l .foter{
+    display: flex;
+    justify-content: space-between;
+    width: 561px;
+}
+footer .l .foter a{
+    color: #6d6d6d;
+    font-size: 14px;
+    line-height: 30px;
+}
